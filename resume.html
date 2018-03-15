@@ -5,6 +5,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     </head>
 
 <body>
@@ -25,17 +28,17 @@
                    </div> 
                    <div <div class="row">
                        <ul id="nav" class="list-inline clearfix">
-                           <li class="col-xs-6 col-sm-3 ul-menu-color-home menuitem">
+                           <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3 ul-menu-color-home menuitem">
                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                            </li>
-                           <li class="col-xs-6 col-sm-3 ul-menu-color-resume menuitem">
+                           <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3 ul-menu-color-resume menuitem">
                                <a href="resume.html" class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
                            </li>
-                           <li class="col-xs-6 col-sm-3 ul-menu-color-contact menuitem">
-                               <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
+                           <li class="col-xs-6 col-sm-6 cpl-md-3 col-lg-3 ul-menu-color-contact menuitem">
+                               <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o" aria-hidden="true"></i><span>Contact</span></a>
                            </li>
-                           <li class="col-xs-6 col-sm-3 ul-menu-color-download menuitem">
-                               <a href="#" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+                           <li class="col-xs-6 col-sm-6 col-md-3 col-lg-3 ul-menu-color-download menuitem">
+                               <a href="assets/cv/RosieCV.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                            </li>
                        </ul>
                    </div>
@@ -46,16 +49,37 @@
         <section class="container-fluid">
             <div class="row row-table">
     <!-------------personal details------------------>         
-                <div class="col-xs-12 col-sm-12 col-md-4 bg-color-personal-info section-column">
+                <div class="col-xs-12 col-sm-12 col-md-4 bg-color-work-history section-column">
                     <div class="row">
                         <div class="col-md-12">
-                            <h3 class="section-heading uppercase">Work History</h3>
+                            <h3 class="history-heading uppercase">Work History</h3>
                         </div>
                     </div>
+                    <div class="history-items">
+                        <div class="timeline-item" dates="02/98 - 04/2004">
+                            <h4>National College of Art and Design (NCAD)</h4>
+                            <p>Sculpture in residence</p>
+                            
+                        </div>
+                        <div class="timeline-item" dates="04/2004 - 06/2008">
+                            <h4>Fisher and Diaz Funeral Directors</h4>
+                            <p>Junior Embalmer</p>
+                            
+                        </div>
+                        <div class="timeline-item" dates="06/2008 - 06/2011">
+                            <h4>Phantom Design Inc. Dublin</h4>
+                            <p>Junior Front End Developer</p>
+                            
+                        </div>
+                        <div class="timeline-item" dates="06/2011 - Present">
+                            <h4>Hooli Inc. Silicon Valley</h4>
+                            <p>Full Stack Web Developer</p>
+                        </div>
+                    </div>    
                 </div>        
            <!------Section under Nav and abpve Footer------------------>  
             
-                <div class="col-xs-12 col-sm-12 col-md-8 bg-color-three-reasons section-column">
+                <div class="col-xs-12 col-sm-12 col-md-8 bg-color-skills section-column">
                     <div class="row">
                         <div class="col-md-12">
                             <h3 class="section-heading uppercase">My Skills</h3>
@@ -130,21 +154,21 @@
         </section>
         <footer class="container-fluid">
         <div class="row footer-details">
-            <div class="col-sm-4">
+            <div class="col-sm-6 col-md-4">
                 <h5 class="uppercase general-sub">About</h5>
                     <p class="inline-block">
                         Full Stack Web Developer. Skilled in everything from HTML to Heroku.
                         The capacity for structural and design thinking.
                      </P>     
             </div>
-             <div class="col-sm-4">
+             <div class="col-sm-6 col-md-4">
                 <h5 class="uppercase general-sub">Download My CV</h5>
                 <p class="inline-block">
-                         Need a printable version of my CV? Downloasd it here.
-                         <a href="#" class="cv-pdf"><i i class="fa fa-download" aria-hidden="true"></i></a>
+                         Need a printable version of my CV? Download it here.
+                         <a href="assets/cv/RosieCV.pdf" target="_blank" class="cv-pdf"><i i class="fa fa-download" aria-hidden="true"></i></a>
                 </p>
             </div>
-             <div class="col-sm-4">
+             <div class="col-sm-12 col-md-4">
                 <h5 class="uppercase general-sub">MySocial</h5>
                 <ul class="list-inline social-links">
                     <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
